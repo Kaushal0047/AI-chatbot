@@ -138,26 +138,27 @@ body {
 
 
 .copy {
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    border: none; /* No border */
-    padding: 10px 15px; /* Some padding */
-    text-align: center; /* Center text */
-    text-decoration: none; /* No underline */
-    display: inline-block; /* Inline-block for spacing */
-    font-size: 14px; /* Font size */
-    margin-left: 10px; /* Space between message content and button */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 10px;
     margin-right: 10px;
-    border-radius: 15px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s; /* Smooth transition */
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .copy:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049;
 }
 
 .copy:disabled {
-    background-color: #ccc; /* Grey background when disabled */
-    cursor: not-allowed; /* Not-allowed cursor when disabled */
+    background-color: #ccc;
+    cursor: not-allowed;
 }
+
